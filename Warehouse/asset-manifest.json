@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Warehouse/static/css/main.12bc0bd4.chunk.css",
+    "main.js": "/Warehouse/static/js/main.538731f9.chunk.js",
+    "main.js.map": "/Warehouse/static/js/main.538731f9.chunk.js.map",
+    "runtime-main.js": "/Warehouse/static/js/runtime-main.a9608d31.js",
+    "runtime-main.js.map": "/Warehouse/static/js/runtime-main.a9608d31.js.map",
+    "static/js/2.a3d9db52.chunk.js": "/Warehouse/static/js/2.a3d9db52.chunk.js",
+    "static/js/2.a3d9db52.chunk.js.map": "/Warehouse/static/js/2.a3d9db52.chunk.js.map",
+    "index.html": "/Warehouse/index.html",
+    "static/css/main.12bc0bd4.chunk.css.map": "/Warehouse/static/css/main.12bc0bd4.chunk.css.map",
+    "static/js/2.a3d9db52.chunk.js.LICENSE.txt": "/Warehouse/static/js/2.a3d9db52.chunk.js.LICENSE.txt",
+    "static/media/Client.b85d2b23.png": "/Warehouse/static/media/Client.b85d2b23.png",
+    "static/media/Factory.0cff9b1e.png": "/Warehouse/static/media/Factory.0cff9b1e.png",
+    "static/media/Request.244295a0.png": "/Warehouse/static/media/Request.244295a0.png",
+    "static/media/Shelf.7c040103.png": "/Warehouse/static/media/Shelf.7c040103.png",
+    "static/media/Trash.0dd36306.png": "/Warehouse/static/media/Trash.0dd36306.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9608d31.js",
+    "static/js/2.a3d9db52.chunk.js",
+    "static/css/main.12bc0bd4.chunk.css",
+    "static/js/main.538731f9.chunk.js"
+  ]
+}
