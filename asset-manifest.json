@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff630538.css",
-    "main.js": "/static/js/main.de46f921.js",
+    "main.js": "/static/js/main.e54e6027.js",
     "static/media/TgLogo.png": "/static/media/TgLogo.9b3668708410c45831f0.png",
     "static/media/Polarization.png": "/static/media/Polarization.bc9837c9ad852d526318.png",
     "static/media/Turing.png": "/static/media/Turing.327f138c61903b003ab0.png",
@@ -18,10 +18,10 @@
     "static/media/email.svg": "/static/media/email.c1e3bebe49c76d572a84deca3e73a170.svg",
     "static/media/keyboard_arrow_down.svg": "/static/media/keyboard_arrow_down.1f411b03532c798ac97b06db0c80f108.svg",
     "main.ff630538.css.map": "/static/css/main.ff630538.css.map",
-    "main.de46f921.js.map": "/static/js/main.de46f921.js.map"
+    "main.e54e6027.js.map": "/static/js/main.e54e6027.js.map"
   },
   "entrypoints": [
     "static/css/main.ff630538.css",
-    "static/js/main.de46f921.js"
+    "static/js/main.e54e6027.js"
   ]
 }
