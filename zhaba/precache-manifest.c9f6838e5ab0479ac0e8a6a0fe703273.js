@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2adacefa0903e54656840f7d481504c7",
+    "revision": "5e7826f346ba10ea8b6c5c21a0e6a90a",
     "url": "/zhaba/index.html"
   },
   {
-    "revision": "31cf0390f5d4b4846194",
+    "revision": "0c39bdcee9a1db3b77af",
     "url": "/zhaba/static/css/main.70266929.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zhaba/static/js/2.ef53862a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31cf0390f5d4b4846194",
-    "url": "/zhaba/static/js/main.e549b372.chunk.js"
+    "revision": "0c39bdcee9a1db3b77af",
+    "url": "/zhaba/static/js/main.c59a35d2.chunk.js"
   },
   {
     "revision": "ffba6436ff7c0f8811c8",
