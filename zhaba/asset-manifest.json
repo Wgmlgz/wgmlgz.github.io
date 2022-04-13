@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zhaba/static/css/main.330a3aee.chunk.css",
-    "main.js": "/zhaba/static/js/main.8fdd5ea6.chunk.js",
-    "main.js.map": "/zhaba/static/js/main.8fdd5ea6.chunk.js.map",
+    "main.js": "/zhaba/static/js/main.7de5c87d.chunk.js",
+    "main.js.map": "/zhaba/static/js/main.7de5c87d.chunk.js.map",
     "runtime-main.js": "/zhaba/static/js/runtime-main.478d025b.js",
     "runtime-main.js.map": "/zhaba/static/js/runtime-main.478d025b.js.map",
     "static/js/2.1da0bd37.chunk.js": "/zhaba/static/js/2.1da0bd37.chunk.js",
     "static/js/2.1da0bd37.chunk.js.map": "/zhaba/static/js/2.1da0bd37.chunk.js.map",
     "index.html": "/zhaba/index.html",
-    "precache-manifest.1458bf87f9af0a70f409dd5c42dd1618.js": "/zhaba/precache-manifest.1458bf87f9af0a70f409dd5c42dd1618.js",
+    "precache-manifest.80d27d502150cd7383a2c0eb9395e4a1.js": "/zhaba/precache-manifest.80d27d502150cd7383a2c0eb9395e4a1.js",
     "service-worker.js": "/zhaba/service-worker.js",
     "static/css/main.330a3aee.chunk.css.map": "/zhaba/static/css/main.330a3aee.chunk.css.map",
     "static/js/2.1da0bd37.chunk.js.LICENSE.txt": "/zhaba/static/js/2.1da0bd37.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.478d025b.js",
     "static/js/2.1da0bd37.chunk.js",
     "static/css/main.330a3aee.chunk.css",
-    "static/js/main.8fdd5ea6.chunk.js"
+    "static/js/main.7de5c87d.chunk.js"
   ]
 }
