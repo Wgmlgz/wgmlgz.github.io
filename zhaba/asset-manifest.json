@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/zhaba/static/css/main.330a3aee.chunk.css",
-    "main.js": "/zhaba/static/js/main.bb5b8cfa.chunk.js",
-    "main.js.map": "/zhaba/static/js/main.bb5b8cfa.chunk.js.map",
+    "main.js": "/zhaba/static/js/main.cb82d5c0.chunk.js",
+    "main.js.map": "/zhaba/static/js/main.cb82d5c0.chunk.js.map",
     "runtime-main.js": "/zhaba/static/js/runtime-main.478d025b.js",
     "runtime-main.js.map": "/zhaba/static/js/runtime-main.478d025b.js.map",
-    "static/js/2.1da0bd37.chunk.js": "/zhaba/static/js/2.1da0bd37.chunk.js",
-    "static/js/2.1da0bd37.chunk.js.map": "/zhaba/static/js/2.1da0bd37.chunk.js.map",
+    "static/js/2.a1436bed.chunk.js": "/zhaba/static/js/2.a1436bed.chunk.js",
+    "static/js/2.a1436bed.chunk.js.map": "/zhaba/static/js/2.a1436bed.chunk.js.map",
     "index.html": "/zhaba/index.html",
-    "precache-manifest.d9d319ed630195ca6ca5a49440ee0ce1.js": "/zhaba/precache-manifest.d9d319ed630195ca6ca5a49440ee0ce1.js",
+    "precache-manifest.6cd93ba67fc40f16b59c393901044a83.js": "/zhaba/precache-manifest.6cd93ba67fc40f16b59c393901044a83.js",
     "service-worker.js": "/zhaba/service-worker.js",
     "static/css/main.330a3aee.chunk.css.map": "/zhaba/static/css/main.330a3aee.chunk.css.map",
-    "static/js/2.1da0bd37.chunk.js.LICENSE.txt": "/zhaba/static/js/2.1da0bd37.chunk.js.LICENSE.txt"
+    "static/js/2.a1436bed.chunk.js.LICENSE.txt": "/zhaba/static/js/2.a1436bed.chunk.js.LICENSE.txt",
+    "static/js/main.cb82d5c0.chunk.js.LICENSE.txt": "/zhaba/static/js/main.cb82d5c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.478d025b.js",
-    "static/js/2.1da0bd37.chunk.js",
+    "static/js/2.a1436bed.chunk.js",
     "static/css/main.330a3aee.chunk.css",
-    "static/js/main.bb5b8cfa.chunk.js"
+    "static/js/main.cb82d5c0.chunk.js"
   ]
 }
