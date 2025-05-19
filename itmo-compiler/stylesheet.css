@@ -1,0 +1,109 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html,
+body,
+main {
+  display: grid;
+}
+
+main {
+  grid-template: 3fr 1fr 1fr / auto 1fr 1fr;
+  gap: .5em;
+}
+
+#programOutput:empty::after {
+  color: #777;
+  content: 'Program output will be here';
+}
+
+textarea {
+  resize: none;
+}
+
+#controlPanel {
+  grid-row: 1/3;
+  gap: .5em;
+}
+
+#controlPanel>div {
+  display: grid;
+  gap: .5em;
+}
+
+#registers {
+  grid-column: 3/3;
+  grid-row: 2/4;
+}
+
+#registers tr:nth-child(even) {
+  background-color: #eee;
+}
+
+#registers td:nth-child(even) {
+  min-width: 10ch;
+  text-align: right;
+}
+
+td {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#memoryTable {
+  display: grid;
+  grid-template: 1fr auto / auto auto 1fr auto auto;
+}
+
+#memoryTable table {
+  grid-column: 1/6;
+  table-layout: fixed;
+}
+
+#memoryTable table tr {
+  width: 100%;
+}
+
+#memoryTable table td:nth-child(3) {
+  width: 6rem;
+}
+
+#memoryTable table td:nth-child(4) {
+  width: 10rem;
+}
+
+#memoryTableBody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+#memoryTableBody td:nth-child(1),
+#memoryTableBody td:nth-child(2) {
+  font-family: monospace;
+  text-align: center;
+  width: 1%;
+}
+
+#memoryTableBody td:nth-child(3) {
+  text-align: right;
+}
+
+button {
+  padding: 0.5em;
+}
+
+#memoryTable button {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.hidden {
+  display: none;
+} 
+
+#sus {
+  display: grid;
+  grid-template: auto 1fr / 1fr 1fr 1fr;
+  gap: .5em;
+}

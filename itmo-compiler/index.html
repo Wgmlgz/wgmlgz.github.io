@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple RISC Emulator</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div id="loading">Initializing WASM module...</div>
+  <main id="interface" class="hidden">
+    <div id="sus">
+      <h3>Source input:</h3>
+      <h3>Compiler Messages:</h3>
+      <h3>Output:</h3>
+
+      <textarea id="stdinInput" style="height: 100%;"></textarea>
+      <textarea id="terminal"></textarea>
+      <textarea id="code" placeholder="Source code"></textarea>
+    </div>
+    <output id="errorList"></output>
+    <div id="memoryTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Address</th>
+            <th>Hex</th>
+            <th>Decimal</th>
+            <th>Command</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody id="memoryTableBody"></tbody>
+        <tfoot>
+          <tr>
+            <th>Address</th>
+            <th>Hex</th>
+            <th>Decimal</th>
+            <th>Command</th>
+            <th>Explanation</th>
+          </tr>
+        </tfoot>
+      </table>
+
+      <button onclick="firstPage()">&lt;&lt;</button>
+      <button onclick="previousPage()">&lt;</button>
+      <div></div>
+      <button onclick="nextPage()">&gt;</button>
+      <button onclick="lastPage()">&gt;&gt;</button>
+    </div>
+    <div id="controlPanel">
+      <div>
+        <button onclick="reloadProgram()">Reload</button>
+        <button onclick="stepOnce()">Step once</button>
+        <button onclick="runProgram()">Run</button>
+        <button onclick="reloadAndRun()">Reload &amp; Run</button>
+        <button onclick="stopProgram()">Stop</button>
+        <button onclick="runWithStdin()">Parse Source</button>
+        <label for="stepsPerUpdate">Steps per update:</label>
+        <input id="stepsPerUpdate" type="number" value="10000"/>
+
+      </div>
+    </div>
+    <textarea id="programInput" placeholder="Program input"></textarea>
+    <div>
+      <button style="width:100%" onclick="clearOutput()">Clear output</button>
+    </div>
+    <textarea id="programOutput" placeholder="Program output will be here" readonly></textarea>
+    <output id="registers"></output>
+  </main>
+  <script src="compiler.js"></script>
+  <script src="web.js"></script>
+</body>
+
+</html>
